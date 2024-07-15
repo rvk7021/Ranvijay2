@@ -21,7 +21,7 @@ const SocialMedia = () => {
         </a>
         <a
           className="hover:opacity-50 transition duration-500"
-          href="#"
+          href="https://leetcode.com/phoenix_rvk"
           target="_blank"
           rel="noreferrer"
         >
