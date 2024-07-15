@@ -6,7 +6,7 @@ export const Data = [
       subtitle:'Podar International School, Jalna',
       icon: <img src="/school.png" className='rounded-full' alt='school'/>,
       score: '86.4%',
-      description: `I attended Podar International School, where I studied under the CBSE board curriculum. Through dedicated effort and commitment to my studies, I achieved a score of {score} in my board examinations. This accomplishment reflects my strong academic foundation and consistent performance across subjects.`
+      description: `I attended Podar International School, where I studied under the CBSE board curriculum. Through dedicated effort and commitment to my studies, I achieved a score of 86.4% in my board examinations. This accomplishment reflects my strong academic foundation and consistent performance across subjects.`
     },
     {
         id: '2',
