@@ -16,22 +16,23 @@ const LandingPage = ({ setSelectedPage }) => {
                         <div className="bg-[rgba(32, 4, 67, 0.513)] rounded-2xl relative flex flex-col items-center  w-full max-w-[400px] md:max-w-[500px]">
                         <img
                             alt="profile"
-                            className=" relative z-10 rounded-full hover:filter saturate-200 transition duration-500 w-full max-w-[400px] md:max-w-[500px]"
-                            src="/profilepic.png"
+                            className=" relative z-10  hover:filter rounded-full opacity-90 saturate-200 transition duration-500 w-full max-w-[400px] md:max-w-[350px]"
+                            src="/profilepic.jpeg"
                         />
                         <div className="text-center bg-gradient-to-r from-purple-700 to-red  text-white font-bold p-2 m-7  rounded-3xl shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800">
-                            <div className='h-7 w-20 bg-deep-blue rounded-xl'><a target='_black' href='https:www.google.com' className=''> Resume</a></div>
+                            <div className='h-7 w-20 bg-deep-blue rounded-xl'><a target='_black' href='https://www.linkedin.com/in/ranvijay-kumar-825457255/' className=''> Resume</a></div>
                         </div>
                         </div>
                     ) : (
                         <div className="bg-[rgba(32, 4, 67, 0.513)] rounded-2xl relative flex flex-col items-center">
-                        <img
-                            alt="profile"
-                            className="ml-4 mr-4 bg-gradient-to-r  to-slate-700 relative z-10 rounded-full hover:filter saturate-200 transition duration-500 w-full max-w-[400px] md:max-w-[500px]"
-                            src="/profilepic.png"
-                        />
+                            <img
+                                alt="profile"
+                                className="ml-4 mr-4 bg-gradient-to-r to-slate-700 relative z-10 rounded-full hover:filter saturate-200 transition duration-500 w-full max-w-[250px]"
+                                src="/profilepic.jpeg"
+                            />
+
                         <div className="text-center bg-gradient-to-r from-purple-700 to-red  text-white font-bold p-2 my-7 rounded-3xl shadow-lg transform transition-transform duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-blue-600 hover:to-blue-800">
-                            <div className='h-7 w-20 bg-deep-blue rounded-xl'><a target='_black' href='https:www.google.com' className=''> Resume</a></div>
+                            <div className='h-7 w-20 bg-deep-blue rounded-xl'><a target='_black' href='https://www.linkedin.com/in/ranvijay-kumar-825457255/' className=''> Resume</a></div>
                         </div>
                         </div>
                     )

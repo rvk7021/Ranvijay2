@@ -5,7 +5,7 @@ const SocialMedia = () => {
 <div className="flex justify-center md:justify-start my-5 gap-7">
         <a
           className="w-8 h-8 hover:opacity-50 transition duration-500"
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.comhttps://www.linkedin.com/in/ranvijay-kumar-825457255/"
           target="_blank"
           rel="noreferrer"
         >
@@ -21,7 +21,7 @@ const SocialMedia = () => {
         </a>
         <a
           className="hover:opacity-50 transition duration-500"
-          href="https://leetcode.com/phoenix_rvk"
+          href="https://codeforces.com/profile/pheonix_rvk"
           target="_blank"
           rel="noreferrer"
         >
