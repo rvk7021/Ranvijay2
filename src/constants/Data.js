@@ -22,7 +22,7 @@ export const Data = [
     id:'3',
     date: '2022 - 2026',
     icon: <img src="/college.jpeg" className='rounded-full' alt='college' />,
-    score:'Grade: 7.98',
+    score:'Grade: 8',
     title: 'Graduation',
     subtitle: 'B.Tech In CSE, IIIT Nagpur',
     description: `I am currently pursuing a B.Tech in Computer Science at the Indian Institute of Information Technology. 
